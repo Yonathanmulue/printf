@@ -3,10 +3,10 @@
 /**
  * print_unsigned - This file Prints an unsigned number
  * @types: this is to show a List a of arguments
- * @buffer: Buffer array to handle print
+ * @buffer: In order to handle print we buffer an array
  * @flags: this is to Calculate active flags
- * @width: get width
- * @precision: Precision specification
+ * @width: to get width we use this
+ * @precision: Precisely specification of the function
  * @size: for the size specifier
  * Return: Number of chars printed.
  */
@@ -120,7 +120,7 @@ int print_hexa_upper(va_list types, char buffer[],
  * @precision: this is term of Precision specification
  * @size: one Size specifier
  * @size: more and second Size specification
- * Return: Number of chars printed
+ * Return: 
  */
 int print_hexa(va_list types, char map_to[], char buffer[],
 	int flags, char flag_ch, int width, int precision, int size)
