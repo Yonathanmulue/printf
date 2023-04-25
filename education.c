@@ -13,7 +13,7 @@
  * Return: Number of chars printed
  */
 int print_char(va_list types, char buffer[],
-        int flags, int width, int precision, int size)
+		int flags, int width, int precision, int size)
 {
     // Retrieve a character from the variable arguments list
     char c = va_arg(types, int);
