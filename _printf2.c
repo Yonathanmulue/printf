@@ -6,9 +6,10 @@
  */
 int _printf(const char *format, ...)
 {
+	int count;
 	va_list args;
 	va_start(args, format);
-	int count = 0;
+	count = 0;
 	while (*format)
 	{
 		if (*format != '%')
