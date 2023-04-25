@@ -12,16 +12,16 @@
  */
 
 int print_pointer(va_list types, char buffer[],
-                int flags, int width, int precision, int size)
+		int flags, int width, int precision, int size)
 {
-        char extra_c = 0, padd = ' ';
-        int ind = BUFF_SIZE - 2, length = 2;
-        unsigned long num_addrs;
-        char map_to[] = "0123456789abcdef";
-        void *addrs = va_arg(types, void *);
+	char extra_c = 0, padd = ' ';
+	int ind = BUFF_SIZE - 2, length = 2;
+	unsigned long num_addrs;
+	char map_to[] = "0123456789abcdef";
+	void *addrs = va_arg(types, void *);
 
-        UNUSED(width);
-        UNUSED(size);
+	UNUSED(width);
+	UNUSED(size);
 
         if (addrs == NULL)
                 return (write(1, "(nil)", 5));
