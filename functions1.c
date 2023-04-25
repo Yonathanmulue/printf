@@ -1,10 +1,5 @@
 #include "main.h"
 
-<<<<<<< HEAD
-=======
->>>>>>> 384e3a05a5400c41a82cb5663
-=======
->>>>>>> 512173c763ccc16eaa3ca0b87850b57346c06af7
 /**
  * print_unsigned - This file Prints an unsigned number
  * @types: this is to show a List a of arguments
